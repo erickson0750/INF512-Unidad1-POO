@@ -10,4 +10,9 @@ class Persona
         Console.WriteLine("Nombre: " + Nombre);
         Console.WriteLine("Edad: " + Edad);
     }
+    
+    public bool EsMayorDeEdad()
+    {
+        return Edad >= 18;
+    }
 }
